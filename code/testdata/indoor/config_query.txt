@@ -1,0 +1,6 @@
+delta=0.001
+h=2
+query_path=<default>
+query_filename=<default>
+index_path=<default>
+index_filename=<default>

@@ -1,0 +1,7 @@
+delta=0.01
+prob=1
+triangle_o=20
+query_path=<default>
+query_filename=<default>
+index_path=<default>
+index_filename=<default>

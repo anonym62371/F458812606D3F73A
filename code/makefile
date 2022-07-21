@@ -28,10 +28,10 @@ OUT=out
 
 all: run_index run_query
 
-run_index: dep_trimesh dep_rstree
+run_index: dep_trimesh dep_rstree mkdir_out
 	$(CXX) $(INCS) $(OBJS) $(SRC)/RunIndex.cpp -o $(OUT)/run_index.out $(LIBS) $(OPTS)
 
-run_query: dep_trimesh dep_rstree
+run_query: dep_trimesh dep_rstree mkdir_out
 	$(CXX) $(INCS) $(OBJS) $(SRC)/RunQuery.cpp -o $(OUT)/run_query.out $(LIBS) $(OPTS)
 
 dep_trimesh:
@@ -39,6 +39,9 @@ dep_trimesh:
 
 dep_rstree:
 	make -C $(RSTREE)
+
+mkdir_out:
+	mkdir -p $(OUT)/
 
 clean:
 	make clean -C $(TRIMESH)

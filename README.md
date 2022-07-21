@@ -14,7 +14,7 @@ This repository contains the code and the technical report for the submission "E
 2. Change the working direction into code/.
 
 3. Compile with "make" command.
-   - Note that if you are using Cygwin, you need to uncomment line 22 in file "code/makefile" and uncomment line 39 in file "code/dependency/trimesh2/Makedefs.Linux".
+   - Note that if you are using Cygwin, you need to uncomment line 22 in file "code/makefile" and uncomment line 39 in file "code/dependency/trimesh2/Makedefs.Linux" (i.e., remove the "#" sign in the beginning of each of the two lines).
    - After successful compilation, two executables will be generated under code/out/: run_index.out and run_query.out.
    - We also provide the two pre-generated Linux executables under "code/out/pre_compiled/" to be readily executed. To run them, just use "./run_pre_compiled.sh".
 

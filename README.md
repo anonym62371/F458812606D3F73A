@@ -1,6 +1,6 @@
-# Efficient Spatial Index for 3D Object Retrieval
+# On Efficient 3D Object Retrieval
 
-This repository contains the code and the technical report for the submission "Efficient Spatial Index for 3D Object Retrieval".
+This repository contains the code and the technical report for the submission "On Efficient 3D Object Retrieval".
 
 ## Requirements
 

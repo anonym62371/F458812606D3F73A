@@ -2,6 +2,8 @@
 
 This repository contains the code and the technical report for the submission "On Efficient 3D Object Retrieval".
 
+Click [here](https://drive.google.com/drive/folders/1rdTcq4l8zAocfHKIM49-lYpo9-DZKuWi?usp=sharing) to obtain the full datasets and all the experiments.
+
 ## Requirements
 
 * Linux environment
